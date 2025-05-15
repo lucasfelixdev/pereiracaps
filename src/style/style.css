@@ -375,8 +375,43 @@ main{
   width: 100%;
 }
 
+ul:not(.swiper-wrapper) {
+  display: flex;
+  max-width: var(--MW);
+  margin: 0 auto !important;
+  justify-content: center;
+  gap: 12px;
+}
 
+.swiper {
+  padding: 50px 0 50px 0;
+  width: 100%;
+  max-width: 1000px;
+  padding-bottom: 40px; /* espaço para a paginação, se necessário */
+  overflow: hidden;
+}
 
+@media (max-width: 1000px) {
+  .swiper{max-width: 610px;}
+}
+
+.swiper-wrapper {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.swiper-slide {
+
+  width: 285px; /* ou defina um valor fixo se preferir, como 300px */
+  list-style: none; /* importante para o <li> não herdar bullets */
+  text-align: center;
+  font-size: 18px;
+  background: transparent; /* remove branco se não quiser */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 .s-clients__container__feedbacks {
@@ -400,15 +435,18 @@ main{
 }
 
 .s-clients__button{margin: 15px 0 0 0; display: flex; justify-content: center; width: 100%;}
+ 
 
 ul{
   display: flex;
   max-width: var(--MW);
   margin: 0 auto !important;
   justify-content: center;
-  flex-wrap: wrap;
+ 
   gap: 12px;
 } 
+
+
 
 .s-clients__container__feedbacks li {
   position: relative;
@@ -425,6 +463,7 @@ ul{
 }
 #meuVideo{
   cursor: pointer;
+  position: relative;
 }
 .play-toggle {
   height: 100%;

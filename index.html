@@ -28,7 +28,11 @@
      <!-- Canonical (evita conteúdo duplicado) -->
      <link rel="canonical" href="https://lucasfelixdev.com/">
 
-     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- CSS TAILWIND -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- CSS USUÁRIO -->
     <link rel="stylesheet" href="./src/style/style.css">
@@ -129,29 +133,12 @@
                   Quem comprou de nós, aprovou!
                 </p>
 
-                
-                <ul class="s-clients__container__feedbacks">
-                    <li>
-                      <div id="meuVideo" class="video-container">
-                        <video id="videoElement" width="280" playsinline poster="./src/img/feedbacks/feedback00.png">
-                          <source src="/src/videos/feedbackclientes/feedback00.mp4" type="video/mp4">
-                          Seu navegador não suporta a tag de vídeo.
-                        </video>
-                        <!-- Botão de Play/Pause -->
-                        <div class="play-toggle" id="btnPlay">
-                          <div class="play-circle">
-                            <i class="play-icon"></i>
-                          </div>
-                          <span>
-                            <i>Assistir</i>
-                            <strong>Feedback</strong>
-                          </span>
-                        </div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div id="meuVideo" class="video-container">
+                  <!-- Swiper -->
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        
+                          <div id="meuVideo" class="video-container">
                         <video poster="./src/img/feedbacks/feedback01.png" id="videoElement" width="280" playsinline preload="metadata">
                           <source src="/src/videos/feedbackclientes/feedback01.mp4" type="video/mp4">
                           Seu navegador não suporta a tag de vídeo.
@@ -167,12 +154,14 @@
                           </span>
                         </div>
                       </div>
-                    </li>
 
-                    <li>
-                      <div id="meuVideo" class="video-container">
-                        <video poster="./src/img/feedbacks/feedback02.png" id="videoElement" width="280" playsinline preload="metadata">
-                          <source src="/src/videos/feedbackclientes/feedback02.mp4" type="video/mp4">
+                      </div>
+
+                      <div class="swiper-slide">
+                        
+                          <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback01.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback01.mp4" type="video/mp4">
                           Seu navegador não suporta a tag de vídeo.
                         </video>
                         <!-- Botão de Play/Pause -->
@@ -186,12 +175,14 @@
                           </span>
                         </div>
                       </div>
-                    </li>
 
-                    <li>
-                      <div id="meuVideo" class="video-container">
-                        <video poster="./src/img/feedbacks/feedback03.png" id="videoElement" width="280" playsinline preload="metadata">
-                          <source src="/src/videos/feedbackclientes/feedback03.mp4" type="video/mp4">
+                      </div>
+
+                      <div class="swiper-slide">
+                        
+                          <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback01.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback01.mp4" type="video/mp4">
                           Seu navegador não suporta a tag de vídeo.
                         </video>
                         <!-- Botão de Play/Pause -->
@@ -205,12 +196,15 @@
                           </span>
                         </div>
                       </div>
-                    </li>
 
-                    <li>
-                      <div id="meuVideo" class="video-container">
-                        <video poster="./src/img/feedbacks/feedback10.png" id="videoElement" width="280" playsinline preload="metadata">
-                          <source src="/src/videos/feedbackclientes/feedback10.mp4" type="video/mp4">
+                      </div>
+                      
+
+                      <div class="swiper-slide">
+                        
+                          <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback01.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback01.mp4" type="video/mp4">
                           Seu navegador não suporta a tag de vídeo.
                         </video>
                         <!-- Botão de Play/Pause -->
@@ -224,12 +218,14 @@
                           </span>
                         </div>
                       </div>
-                    </li>
 
-                    <li>
-                      <div id="meuVideo" class="video-container">
-                        <video poster="./src/img/feedbacks/feedback06.png" id="videoElement" width="280" playsinline preload="metadata">
-                          <source src="/src/videos/feedbackclientes/feedback05.mp4" type="video/mp4">
+                      </div>
+
+                      <div class="swiper-slide">
+                        
+                          <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback01.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback01.mp4" type="video/mp4">
                           Seu navegador não suporta a tag de vídeo.
                         </video>
                         <!-- Botão de Play/Pause -->
@@ -243,52 +239,20 @@
                           </span>
                         </div>
                       </div>
-                    </li>
 
-                    <li>
-                      <div id="meuVideo" class="video-container">
-                        <video poster="./src/img/feedbacks/feedback07.png" id="videoElement" width="280" playsinline preload="metadata">
-                          <source src="/src/videos/feedbackclientes/feedback07.mp4" type="video/mp4">
-                          Seu navegador não suporta a tag de vídeo.
-                        </video>
-                        <!-- Botão de Play/Pause -->
-                        <div class="play-toggle" id="btnPlay">
-                          <div class="play-circle">
-                            <i class="play-icon"></i>
-                          </div>
-                          <span>
-                            <i>Assistir</i>
-                            <strong>Feedback</strong>
-                          </span>
-                        </div>
                       </div>
-                    </li>
 
-                    <li>
-                      <div id="meuVideo" class="video-container">
-                        <video poster="./src/img/feedbacks/feedback08.png" id="videoElement" width="280" playsinline preload="metadata">
-                          <source src="/src/videos/feedbackclientes/feedback06.mp4" type="video/mp4">
-                          Seu navegador não suporta a tag de vídeo.
-                        </video>
-                        <!-- Botão de Play/Pause -->
-                        <div class="play-toggle" id="btnPlay">
-                          <div class="play-circle">
-                            <i class="play-icon"></i>
-                          </div>
-                          <span>
-                            <i>Assistir</i>
-                            <strong>Feedback</strong>
-                          </span>
-                        </div>
-                      </div>
-                    </li>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
 
-                </ul>
+           
+               
                   
                 <div class="s-clients__container">
                     <h2>Ver mais <br><span class="orange-span">feedbacks</span></h2>
                     <div class="s-clients__button">
-                        <a href="#"
+                        <a href="feedbacks.html"
                         class="bg-gray-200 text-center w-48 rounded-2xl h-14 relative text-black text-xl font-semibold group flex justify-center align-center items-center"
                         type="button">
                         <div
@@ -528,13 +492,16 @@
      </footer>    
    </div>
   <!-- Disable DevTools -->
-   <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
-
+  <!-- <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script> -->
   <!-- Suavidade scroll -->
-      <script defer src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
-   
-      <!-- //CONTADOR DE VISUALIZAZÇÕES AO VIVO -->
+  <script defer src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./src/script/swiper-slide.js"></script>
+  <!-- //CONTADOR DE VISUALIZAZÇÕES AO VIVO -->
    <script>
+
+    
     document.addEventListener('DOMContentLoaded', function() {
         function random(min, max) {
             return Math.floor(Math.random() * (max - min + 1) + min);

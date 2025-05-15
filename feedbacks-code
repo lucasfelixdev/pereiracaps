@@ -1,0 +1,154 @@
+ <ul class="s-clients__container__feedbacks">
+                    <li>
+                      <div id="meuVideo" class="video-container">
+                        <video id="videoElement" width="280" playsinline poster="./src/img/feedbacks/feedback00.png">
+                          <source src="/src/videos/feedbackclientes/feedback00.mp4" type="video/mp4">
+                          Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <!-- Botão de Play/Pause -->
+                        <div class="play-toggle" id="btnPlay">
+                          <div class="play-circle">
+                            <i class="play-icon"></i>
+                          </div>
+                          <span>
+                            <i>Assistir</i>
+                            <strong>Feedback</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback01.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback01.mp4" type="video/mp4">
+                          Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <!-- Botão de Play/Pause -->
+                        <div class="play-toggle" id="btnPlay">
+                          <div class="play-circle">
+                            <i class="play-icon"></i>
+                          </div>
+                          <span>
+                            <i>Assistir</i>
+                            <strong>Feedback</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback02.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback02.mp4" type="video/mp4">
+                          Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <!-- Botão de Play/Pause -->
+                        <div class="play-toggle" id="btnPlay">
+                          <div class="play-circle">
+                            <i class="play-icon"></i>
+                          </div>
+                          <span>
+                            <i>Assistir</i>
+                            <strong>Feedback</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback03.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback03.mp4" type="video/mp4">
+                          Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <!-- Botão de Play/Pause -->
+                        <div class="play-toggle" id="btnPlay">
+                          <div class="play-circle">
+                            <i class="play-icon"></i>
+                          </div>
+                          <span>
+                            <i>Assistir</i>
+                            <strong>Feedback</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback10.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback10.mp4" type="video/mp4">
+                          Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <!-- Botão de Play/Pause -->
+                        <div class="play-toggle" id="btnPlay">
+                          <div class="play-circle">
+                            <i class="play-icon"></i>
+                          </div>
+                          <span>
+                            <i>Assistir</i>
+                            <strong>Feedback</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback06.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback05.mp4" type="video/mp4">
+                          Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <!-- Botão de Play/Pause -->
+                        <div class="play-toggle" id="btnPlay">
+                          <div class="play-circle">
+                            <i class="play-icon"></i>
+                          </div>
+                          <span>
+                            <i>Assistir</i>
+                            <strong>Feedback</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback07.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback07.mp4" type="video/mp4">
+                          Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <!-- Botão de Play/Pause -->
+                        <div class="play-toggle" id="btnPlay">
+                          <div class="play-circle">
+                            <i class="play-icon"></i>
+                          </div>
+                          <span>
+                            <i>Assistir</i>
+                            <strong>Feedback</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div id="meuVideo" class="video-container">
+                        <video poster="./src/img/feedbacks/feedback08.png" id="videoElement" width="280" playsinline preload="metadata">
+                          <source src="/src/videos/feedbackclientes/feedback06.mp4" type="video/mp4">
+                          Seu navegador não suporta a tag de vídeo.
+                        </video>
+                        <!-- Botão de Play/Pause -->
+                        <div class="play-toggle" id="btnPlay">
+                          <div class="play-circle">
+                            <i class="play-icon"></i>
+                          </div>
+                          <span>
+                            <i>Assistir</i>
+                            <strong>Feedback</strong>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+
+                </ul>
