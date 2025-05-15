@@ -263,7 +263,7 @@ header{
   z-index: 99;}
 
 .header__texts h1{
-  width: 405px;
+  width: 406px;
   font-family: "Special Gothic Expanded One"; 
   font-size: 45px;  
   font-size: clamp(39px, 3em , 4.3vh); 
