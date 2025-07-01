@@ -51,7 +51,7 @@ body{
 
 .pcl-viewers {
     box-shadow: rgb(0 0 0 / 22%) 0px -6px 25px -5px, rgb(177 177 177 / 43%) 0px 10px 10px -5px;
-    width: 50%;
+    width: 60%;
     max-width: 400px;
     box-sizing: border-box;
     padding: 6px 19px 6px 10px;
@@ -70,7 +70,7 @@ body{
     z-index: 100;
   
 }
-.olho{stroke: var(--bg-default); /*mude a cor do ícone de olho aqui*/}
+.olho{stroke: var(--whiteV2); /*mude a cor do ícone de olho aqui*/}
 .pupila{stroke: var(--color-primary01); /*mude a cor do ícone de olho aqui*/}
 .texto {
     color: var(--bg-default); /*mude a cor do texto aqui*/}
@@ -377,6 +377,7 @@ main{
 
 ul:not(.swiper-wrapper) {
   display: flex;
+  flex-wrap: wrap;
   max-width: var(--MW);
   margin: 0 auto !important;
   justify-content: center;
@@ -855,7 +856,7 @@ footer p {font-size: 18px;}
 }
 @media (max-width:1175px) {
   header{flex-direction: column;justify-content: flex-start; background-position-x: 35% ; height: 100%; padding: 40px 0 30px 0;}
-  .header-container{position: initial !important; flex-direction: column; height: 100%; row-gap: 20px; width: 100%; overflow-x: hidden;}
+  .header-container{position: initial !important; flex-direction: column; height: 100%; row-gap: 20px; width: 100%; }
   .header__texts{position: inherit; align-items: center; text-align: center; box-sizing: border-box; padding: 40px 0;} 
   .header-container .header-texts-img > img{width: 450px;}
   .header-texts-img{position: inherit; transform: translate(-50%, -50%); bottom: 0; width: 500px;}
@@ -865,6 +866,7 @@ footer p {font-size: 18px;}
 }
 
 @media (max-width: 768px) {
+  .s-service__title{flex-direction: column; text-align: center;}
   header{ padding: 40px 0 55px 0;}
   .header-texts-img{width: auto;}
   .header-container .header-texts-img > img{width: 350px;}
@@ -910,10 +912,10 @@ footer p {font-size: 18px;}
 }
 
 @media (max-width: 618px){
+  .header__texts h1{font-size: 33px; width: 300px;}
   .divisor-service{
-      width: 1900px;
-      transform: translate(-50%, 15%);
+display: none;
 }
-.s-service__vendedor{ & a{bottom: -50px;}}
+.s-service__vendedor{ & a{bottom: -50px; scale: 0.8;}}
 
 }
