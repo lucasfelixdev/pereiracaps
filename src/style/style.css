@@ -187,7 +187,8 @@ header{
     padding: 22px; 
     border-radius: 99px; 
     align-items: center; 
-    margin-top: 40px; 
+    margin-top: 40px !important;
+    margin-bottom: 0 !important; 
     border: 1.8px solid #ffffff00;
     transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
     background: linear-gradient(#1b0400, #1b0400) padding-box, linear-gradient(
@@ -239,8 +240,7 @@ header{
 
 
 .header__texts__logo a{
-    margin-top: 40px !important;
-    margin-bottom: 0 !important;
+   
     position: relative;
     z-index: 99;
     margin: 0 auto;
