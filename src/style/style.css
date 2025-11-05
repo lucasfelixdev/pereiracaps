@@ -239,7 +239,8 @@ header{
 
 
 .header__texts__logo a{
-  position: relative;
+    margin-top: 40px;
+    position: relative;
     z-index: 99;
     margin: 0 auto;
     width: 75%;
